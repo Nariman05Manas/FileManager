@@ -12,6 +12,8 @@
 		4B74AF872880894D001116E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B74AF862880894D001116E5 /* ViewController.swift */; };
 		4B74AF8C2880894E001116E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B74AF8B2880894E001116E5 /* Assets.xcassets */; };
 		4B74AF8F2880894E001116E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B74AF8D2880894E001116E5 /* LaunchScreen.storyboard */; };
+		4B74AF9728808BBB001116E5 /* Sourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B74AF9628808BBB001116E5 /* Sourse.swift */; };
+		4B74AF9928808BD1001116E5 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B74AF9828808BD1001116E5 /* TableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4B74AF8B2880894E001116E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B74AF8E2880894E001116E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B74AF902880894E001116E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B74AF9628808BBB001116E5 /* Sourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sourse.swift; sourceTree = "<group>"; };
+		4B74AF9828808BD1001116E5 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +59,12 @@
 			isa = PBXGroup;
 			children = (
 				4B74AF822880894D001116E5 /* AppDelegate.swift */,
-				4B74AF842880894D001116E5 /* SceneDelegate.swift */,
 				4B74AF862880894D001116E5 /* ViewController.swift */,
-				4B74AF8B2880894E001116E5 /* Assets.xcassets */,
+				4B74AF9828808BD1001116E5 /* TableCell.swift */,
+				4B74AF9628808BBB001116E5 /* Sourse.swift */,
 				4B74AF8D2880894E001116E5 /* LaunchScreen.storyboard */,
+				4B74AF842880894D001116E5 /* SceneDelegate.swift */,
+				4B74AF8B2880894E001116E5 /* Assets.xcassets */,
 				4B74AF902880894E001116E5 /* Info.plist */,
 			);
 			path = "FileManagerI_Ios-18";
@@ -134,6 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B74AF9928808BD1001116E5 /* TableCell.swift in Sources */,
+				4B74AF9728808BBB001116E5 /* Sourse.swift in Sources */,
 				4B74AF872880894D001116E5 /* ViewController.swift in Sources */,
 				4B74AF832880894D001116E5 /* AppDelegate.swift in Sources */,
 				4B74AF852880894D001116E5 /* SceneDelegate.swift in Sources */,
