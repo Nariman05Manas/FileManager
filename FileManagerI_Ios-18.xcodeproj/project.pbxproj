@@ -14,9 +14,15 @@
 		4B74AF8F2880894E001116E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B74AF8D2880894E001116E5 /* LaunchScreen.storyboard */; };
 		4B74AF9728808BBB001116E5 /* Sourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B74AF9628808BBB001116E5 /* Sourse.swift */; };
 		4B74AF9928808BD1001116E5 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B74AF9828808BD1001116E5 /* TableCell.swift */; };
+		4B74AF9D28809662001116E5 /* LoginKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B74AF9C28809662001116E5 /* LoginKeyViewController.swift */; };
+		4B74AFA028809778001116E5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B74AF9F28809778001116E5 /* SettingsViewController.swift */; };
+		4B74AFA22880979A001116E5 /* ParametrsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B74AFA12880979A001116E5 /* ParametrsViewCell.swift */; };
+		B6F6011B439F9D5ABA585A1D /* Pods_FileManagerI_Ios_18.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4B6AC7ABCD623B05DA8746 /* Pods_FileManagerI_Ios_18.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		246B0CC591B53EE75D7838D7 /* Pods-FileManagerI_Ios-18.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileManagerI_Ios-18.debug.xcconfig"; path = "Target Support Files/Pods-FileManagerI_Ios-18/Pods-FileManagerI_Ios-18.debug.xcconfig"; sourceTree = "<group>"; };
+		3D4B6AC7ABCD623B05DA8746 /* Pods_FileManagerI_Ios_18.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FileManagerI_Ios_18.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B74AF7F2880894D001116E5 /* FileManagerI_Ios-18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FileManagerI_Ios-18.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B74AF822880894D001116E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B74AF842880894D001116E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +32,10 @@
 		4B74AF902880894E001116E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B74AF9628808BBB001116E5 /* Sourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sourse.swift; sourceTree = "<group>"; };
 		4B74AF9828808BD1001116E5 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		4B74AF9C28809662001116E5 /* LoginKeyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginKeyViewController.swift; sourceTree = "<group>"; };
+		4B74AF9F28809778001116E5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4B74AFA12880979A001116E5 /* ParametrsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametrsViewCell.swift; sourceTree = "<group>"; };
+		E25720E15D51240DC88E07DA /* Pods-FileManagerI_Ios-18.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileManagerI_Ios-18.release.xcconfig"; path = "Target Support Files/Pods-FileManagerI_Ios-18/Pods-FileManagerI_Ios-18.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6F6011B439F9D5ABA585A1D /* Pods_FileManagerI_Ios_18.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E7D0A60A9DEDDE02CE6FE52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D4B6AC7ABCD623B05DA8746 /* Pods_FileManagerI_Ios_18.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4B74AF762880894D001116E5 = {
 			isa = PBXGroup;
 			children = (
 				4B74AF812880894D001116E5 /* FileManagerI_Ios-18 */,
 				4B74AF802880894D001116E5 /* Products */,
+				C13FE91A0BC4F302DC2730C4 /* Pods */,
+				2E7D0A60A9DEDDE02CE6FE52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +79,60 @@
 		4B74AF812880894D001116E5 /* FileManagerI_Ios-18 */ = {
 			isa = PBXGroup;
 			children = (
-				4B74AF822880894D001116E5 /* AppDelegate.swift */,
+				4BCFB8822880A51200F4149E /* Main */,
+				4B74AF9E288096CE001116E5 /* Seting */,
+				4B74AF9B2880961E001116E5 /* LoginKeychain */,
+				4B74AF9A288095C7001116E5 /* FileManager */,
+			);
+			path = "FileManagerI_Ios-18";
+			sourceTree = "<group>";
+		};
+		4B74AF9A288095C7001116E5 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
 				4B74AF862880894D001116E5 /* ViewController.swift */,
 				4B74AF9828808BD1001116E5 /* TableCell.swift */,
 				4B74AF9628808BBB001116E5 /* Sourse.swift */,
-				4B74AF8D2880894E001116E5 /* LaunchScreen.storyboard */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		4B74AF9B2880961E001116E5 /* LoginKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				4B74AF9C28809662001116E5 /* LoginKeyViewController.swift */,
+			);
+			path = LoginKeychain;
+			sourceTree = "<group>";
+		};
+		4B74AF9E288096CE001116E5 /* Seting */ = {
+			isa = PBXGroup;
+			children = (
+				4B74AF9F28809778001116E5 /* SettingsViewController.swift */,
+				4B74AFA12880979A001116E5 /* ParametrsViewCell.swift */,
+			);
+			path = Seting;
+			sourceTree = "<group>";
+		};
+		4BCFB8822880A51200F4149E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4B74AF822880894D001116E5 /* AppDelegate.swift */,
 				4B74AF842880894D001116E5 /* SceneDelegate.swift */,
+				4B74AF8D2880894E001116E5 /* LaunchScreen.storyboard */,
 				4B74AF8B2880894E001116E5 /* Assets.xcassets */,
 				4B74AF902880894E001116E5 /* Info.plist */,
 			);
-			path = "FileManagerI_Ios-18";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C13FE91A0BC4F302DC2730C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				246B0CC591B53EE75D7838D7 /* Pods-FileManagerI_Ios-18.debug.xcconfig */,
+				E25720E15D51240DC88E07DA /* Pods-FileManagerI_Ios-18.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B74AF932880894E001116E5 /* Build configuration list for PBXNativeTarget "FileManagerI_Ios-18" */;
 			buildPhases = (
+				822D67EF117D717F5E4EE3D7 /* [CP] Check Pods Manifest.lock */,
 				4B74AF7B2880894D001116E5 /* Sources */,
 				4B74AF7C2880894D001116E5 /* Frameworks */,
 				4B74AF7D2880894D001116E5 /* Resources */,
+				5A68E5A887725B065BC4BF2E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +202,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A68E5A887725B065BC4BF2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FileManagerI_Ios-18/Pods-FileManagerI_Ios-18-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FileManagerI_Ios-18/Pods-FileManagerI_Ios-18-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FileManagerI_Ios-18/Pods-FileManagerI_Ios-18-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		822D67EF117D717F5E4EE3D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FileManagerI_Ios-18-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4B74AF7B2880894D001116E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -142,7 +251,10 @@
 			files = (
 				4B74AF9928808BD1001116E5 /* TableCell.swift in Sources */,
 				4B74AF9728808BBB001116E5 /* Sourse.swift in Sources */,
+				4B74AF9D28809662001116E5 /* LoginKeyViewController.swift in Sources */,
+				4B74AFA22880979A001116E5 /* ParametrsViewCell.swift in Sources */,
 				4B74AF872880894D001116E5 /* ViewController.swift in Sources */,
+				4B74AFA028809778001116E5 /* SettingsViewController.swift in Sources */,
 				4B74AF832880894D001116E5 /* AppDelegate.swift in Sources */,
 				4B74AF852880894D001116E5 /* SceneDelegate.swift in Sources */,
 			);
@@ -278,6 +390,7 @@
 		};
 		4B74AF942880894E001116E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 246B0CC591B53EE75D7838D7 /* Pods-FileManagerI_Ios-18.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +418,7 @@
 		};
 		4B74AF952880894E001116E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E25720E15D51240DC88E07DA /* Pods-FileManagerI_Ios-18.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

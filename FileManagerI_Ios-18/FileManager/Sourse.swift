@@ -11,3 +11,9 @@ import UIKit
      var image: UIImage
      var path: String
  }
+
+enum LoginState {
+    case signUp
+    case signIn
+    case passEdit
+}
